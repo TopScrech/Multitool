@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		F393C7C12A18A62E00DE33F9 /* GptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptModel.swift; sourceTree = "<group>"; };
-		F3A3916E29DB27B900591C84 /* AI Multitool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Multitool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A3916E29DB27B900591C84 /* Multitool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multitool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A3917129DB27B900591C84 /* MultitoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolApp.swift; sourceTree = "<group>"; };
 		F3A3917329DB27B900591C84 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		F3A3917529DB27BA00591C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		F3A3916529DB27B900591C84 = {
 			isa = PBXGroup;
 			children = (
-				F3A3917029DB27B900591C84 /* AI Multitool */,
+				F3A3917029DB27B900591C84 /* Multitool */,
 				F3A3916F29DB27B900591C84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,12 +82,12 @@
 		F3A3916F29DB27B900591C84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3A3916E29DB27B900591C84 /* AI Multitool.app */,
+				F3A3916E29DB27B900591C84 /* Multitool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3A3917029DB27B900591C84 /* AI Multitool */ = {
+		F3A3917029DB27B900591C84 /* Multitool */ = {
 			isa = PBXGroup;
 			children = (
 				F3A3917129DB27B900591C84 /* MultitoolApp.swift */,
@@ -98,7 +98,7 @@
 				F3A391A629DB329700591C84 /* Tools */,
 				F3A3917529DB27BA00591C84 /* Assets.xcassets */,
 			);
-			path = "AI Multitool";
+			path = Multitool;
 			sourceTree = "<group>";
 		};
 		F3A391A629DB329700591C84 /* Tools */ = {
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3A3916D29DB27B900591C84 /* AI Multitool */ = {
+		F3A3916D29DB27B900591C84 /* Multitool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3A3919229DB27BA00591C84 /* Build configuration list for PBXNativeTarget "AI Multitool" */;
+			buildConfigurationList = F3A3919229DB27BA00591C84 /* Build configuration list for PBXNativeTarget "Multitool" */;
 			buildPhases = (
 				F3A3916A29DB27B900591C84 /* Sources */,
 				F3A3916B29DB27B900591C84 /* Frameworks */,
@@ -144,12 +144,12 @@
 			);
 			dependencies = (
 			);
-			name = "AI Multitool";
+			name = Multitool;
 			packageProductDependencies = (
 				F3A391A029DB2AA800591C84 /* ScrechKit */,
 			);
 			productName = Multitool;
-			productReference = F3A3916E29DB27B900591C84 /* AI Multitool.app */;
+			productReference = F3A3916E29DB27B900591C84 /* Multitool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3A3916929DB27B900591C84 /* Build configuration list for PBXProject "AI Multitool" */;
+			buildConfigurationList = F3A3916929DB27B900591C84 /* Build configuration list for PBXProject "Multitool" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3A3916D29DB27B900591C84 /* AI Multitool */,
+				F3A3916D29DB27B900591C84 /* Multitool */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3A3916929DB27B900591C84 /* Build configuration list for PBXProject "AI Multitool" */ = {
+		F3A3916929DB27B900591C84 /* Build configuration list for PBXProject "Multitool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A3919029DB27BA00591C84 /* Debug */,
@@ -411,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3A3919229DB27BA00591C84 /* Build configuration list for PBXNativeTarget "AI Multitool" */ = {
+		F3A3919229DB27BA00591C84 /* Build configuration list for PBXNativeTarget "Multitool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3A3919329DB27BA00591C84 /* Debug */,
