@@ -44,6 +44,7 @@
 		F3A391B229DB432500591C84 /* GPT List Models API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GPT List Models API.swift"; sourceTree = "<group>"; };
 		F3A391B429DB439400591C84 /* Create Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Request.swift"; sourceTree = "<group>"; };
 		F3A391B629DB44E600591C84 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		F3BD2FA32A2416F1003A02BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		F3A3917029DB27B900591C84 /* Multitool */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD2FA32A2416F1003A02BD /* Info.plist */,
 				F3A3917129DB27B900591C84 /* MultitoolApp.swift */,
 				F3A3917329DB27B900591C84 /* AppContainer.swift */,
 				F3A391A929DB392700591C84 /* UserSettings.swift */,
@@ -350,6 +352,7 @@
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Multitool/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "AI Multitool";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -380,6 +383,7 @@
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Multitool/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "AI Multitool";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
