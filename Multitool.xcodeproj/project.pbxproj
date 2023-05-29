@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F38CB1702A254B870013FA26 /* DictionaryPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */; };
+		F38CB1712A254B870013FA26 /* Container VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16C2A254B860013FA26 /* Container VM.swift */; };
+		F38CB1722A254B870013FA26 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16D2A254B860013FA26 /* Container.swift */; };
+		F38CB1732A254B870013FA26 /* VerbsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16E2A254B860013FA26 /* VerbsHome.swift */; };
+		F38CB1742A254B870013FA26 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16F2A254B870013FA26 /* DictionaryView.swift */; };
 		F393C7C22A18A62E00DE33F9 /* GptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393C7C12A18A62E00DE33F9 /* GptModel.swift */; };
 		F3A3917229DB27B900591C84 /* MultitoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3917129DB27B900591C84 /* MultitoolApp.swift */; };
 		F3A3917429DB27B900591C84 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3917329DB27B900591C84 /* AppContainer.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryPlusView.swift; sourceTree = "<group>"; };
+		F38CB16C2A254B860013FA26 /* Container VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container VM.swift"; sourceTree = "<group>"; };
+		F38CB16D2A254B860013FA26 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F38CB16E2A254B860013FA26 /* VerbsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbsHome.swift; sourceTree = "<group>"; };
+		F38CB16F2A254B870013FA26 /* DictionaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		F393C7C12A18A62E00DE33F9 /* GptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptModel.swift; sourceTree = "<group>"; };
 		F3A3916E29DB27B900591C84 /* Multitool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multitool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A3917129DB27B900591C84 /* MultitoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolApp.swift; sourceTree = "<group>"; };
@@ -59,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F38CB1752A254BB40013FA26 /* Irregular Verbs */ = {
+			isa = PBXGroup;
+			children = (
+				F38CB16C2A254B860013FA26 /* Container VM.swift */,
+				F38CB16D2A254B860013FA26 /* Container.swift */,
+				F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */,
+				F38CB16F2A254B870013FA26 /* DictionaryView.swift */,
+				F38CB16E2A254B860013FA26 /* VerbsHome.swift */,
+			);
+			path = "Irregular Verbs";
+			sourceTree = "<group>";
+		};
 		F3A07C282A240A09006F66E0 /* ChatGPT */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +113,7 @@
 		F3A3917029DB27B900591C84 /* Multitool */ = {
 			isa = PBXGroup;
 			children = (
+				F3A3917529DB27BA00591C84 /* Assets.xcassets */,
 				F3BD2FA32A2416F1003A02BD /* Info.plist */,
 				F3A3917129DB27B900591C84 /* MultitoolApp.swift */,
 				F3A3917329DB27B900591C84 /* AppContainer.swift */,
@@ -98,7 +121,6 @@
 				F3A391B829DB55CD00591C84 /* Networking */,
 				F3C07B882A0AB82E0052BE88 /* Home */,
 				F3A391A629DB329700591C84 /* Tools */,
-				F3A3917529DB27BA00591C84 /* Assets.xcassets */,
 			);
 			path = Multitool;
 			sourceTree = "<group>";
@@ -107,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F3A07C282A240A09006F66E0 /* ChatGPT */,
+				F38CB1752A254BB40013FA26 /* Irregular Verbs */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -210,17 +233,22 @@
 				F3A3919E29DB299800591C84 /* HomeButton.swift in Sources */,
 				F3A3919C29DB294000591C84 /* HomeView.swift in Sources */,
 				F3A391B329DB432500591C84 /* GPT List Models API.swift in Sources */,
+				F38CB1742A254B870013FA26 /* DictionaryView.swift in Sources */,
 				F3A391B529DB439400591C84 /* Create Request.swift in Sources */,
 				F3A391A529DB328600591C84 /* ChatGptParent.swift in Sources */,
 				F3A391B729DB44E600591C84 /* Errors.swift in Sources */,
+				F38CB1722A254B870013FA26 /* Container.swift in Sources */,
 				F3A391A329DB314900591C84 /* HomeButton Model.swift in Sources */,
+				F38CB1702A254B870013FA26 /* DictionaryPlusView.swift in Sources */,
 				F3A391AA29DB392700591C84 /* UserSettings.swift in Sources */,
 				F3A3917229DB27B900591C84 /* MultitoolApp.swift in Sources */,
 				F3A391A829DB38B900591C84 /* ChatGptVM.swift in Sources */,
 				F393C7C22A18A62E00DE33F9 /* GptModel.swift in Sources */,
 				F3A391B029DB3CBB00591C84 /* ChatGptIntroVM.swift in Sources */,
 				F3A391AE29DB3A6F00591C84 /* ChatGptIntro.swift in Sources */,
+				F38CB1712A254B870013FA26 /* Container VM.swift in Sources */,
 				F3A391AC29DB39F500591C84 /* ChatGpt.swift in Sources */,
+				F38CB1732A254B870013FA26 /* VerbsHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -331,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,6 +387,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
