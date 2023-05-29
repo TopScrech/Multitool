@@ -5,7 +5,7 @@ struct AppContainer: View {
     
     var body: some View {
         NavigationStack {
-            VerbsHome()
+            HomeView()
         }
         .environmentObject(userSettings)
     }
