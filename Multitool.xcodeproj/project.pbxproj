@@ -84,9 +84,9 @@
 		F3A07C282A240A09006F66E0 /* ChatGPT */ = {
 			isa = PBXGroup;
 			children = (
+				F3A391A429DB328600591C84 /* ChatGptParent.swift */,
 				F3A391AB29DB39F500591C84 /* ChatGpt.swift */,
 				F3A391A729DB38B900591C84 /* ChatGptVM.swift */,
-				F3A391A429DB328600591C84 /* ChatGptParent.swift */,
 				F3A391AD29DB3A6F00591C84 /* ChatGptIntro.swift */,
 				F3A391AF29DB3CBB00591C84 /* ChatGptIntroVM.swift */,
 				F393C7C12A18A62E00DE33F9 /* GptModel.swift */,

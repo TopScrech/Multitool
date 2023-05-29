@@ -1,4 +1,5 @@
 import SwiftUI
+import ScrechKit
 
 struct ChatGptParent: View {
     @EnvironmentObject private var userSettings: UserSettings
@@ -16,7 +17,9 @@ struct ChatGptParent: View {
 
 struct ChatGptParent_Previews: PreviewProvider {
     static var previews: some View {
-        ChatGptParent()
-            .environmentObject(UserSettings())
+        Preview {
+            ChatGptParent()
+        }
+        .environmentObject(UserSettings())
     }
 }

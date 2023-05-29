@@ -1,4 +1,5 @@
 import SwiftUI
+import ScrechKit
 
 struct ChatGpt: View {
     @ObservedObject private var vm = ChatGptVM()
@@ -14,6 +15,8 @@ struct ChatGpt: View {
 
 struct ChatGpt_Previews: PreviewProvider {
     static var previews: some View {
-        ChatGpt()
+        Preview {
+            ChatGpt()
+        }
     }
 }

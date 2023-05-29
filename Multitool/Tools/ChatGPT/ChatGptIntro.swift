@@ -1,9 +1,10 @@
 import SwiftUI
+import ScrechKit
 
 struct ChatGptIntro: View {
     @ObservedObject private var vm = ChatGptIntroVM()
     
-    @State private var apiKey: String = ""
+    @State private var apiKey = ""
     
     var body: some View {
         VStack {
@@ -26,7 +27,8 @@ struct ChatGptIntro: View {
 
 struct ChatGptIntro_Previews: PreviewProvider {
     static var previews: some View {
-        ChatGptIntro()
-            .darkSchemePreferred()
+        Preview {
+            ChatGptIntro()
+        }
     }
 }

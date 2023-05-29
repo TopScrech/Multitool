@@ -1,6 +1,6 @@
 import SwiftUI
 
 class UserSettings: ObservableObject {
-    @AppStorage("apiKeyGpt") var apiKeyGpt: String = ""
-    @AppStorage("isApiKeyGptValid") var isApiKeyGptValid: Bool = false
+    @AppStorage("apiKeyGpt") var apiKeyGpt = ""
+    @AppStorage("isApiKeyGptValid") var isApiKeyGptValid = false
 }
