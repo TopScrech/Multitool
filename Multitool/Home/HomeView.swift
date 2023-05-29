@@ -1,4 +1,5 @@
 import SwiftUI
+import ScrechKit
 
 struct HomeView: View {
     private let buttons: [ToolButton] = [
@@ -23,6 +24,8 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        Preview {
+            HomeView()
+        }
     }
 }
