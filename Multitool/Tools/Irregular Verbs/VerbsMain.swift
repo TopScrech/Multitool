@@ -1,7 +1,7 @@
 import SwiftUI
 import AVFoundation
 
-struct VerbsHome: View {
+struct VerbsMain: View {
     @EnvironmentObject private var vm: ContainerVM
     
     @State private var key = ""
@@ -109,7 +109,7 @@ struct VerbsHome: View {
                         .padding()
                 }
             }
-            Slider(
+            Slider (
                 value: $speed,
                 in: 0...0.5,
                 onEditingChanged: { editing in
@@ -117,11 +117,11 @@ struct VerbsHome: View {
                 }
             )
             .frame(width: 200)
+            
             Text("Скорость озвуки")
                 .foregroundColor(isEditing ? .red : .blue)
         }
     }
-    
     
     func generateRandomPair() {
         let availableKeys = vm.dictionaryHome.keys.filter { !usedKeys.contains($0) }

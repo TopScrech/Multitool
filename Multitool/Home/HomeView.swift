@@ -4,6 +4,7 @@ import ScrechKit
 struct HomeView: View {
     private let buttons: [ToolButton] = [
         .init("ChatGPT", image: "OpenAI", destination: AnyView(ChatGptParent())),
+        .init("Irregular Verbs", image: "Irregular Verbs", destination: AnyView(Container_Verbs())),
     ]
     
     var body: some View {

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		F38CB1702A254B870013FA26 /* DictionaryPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */; };
 		F38CB1712A254B870013FA26 /* Container VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16C2A254B860013FA26 /* Container VM.swift */; };
-		F38CB1722A254B870013FA26 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16D2A254B860013FA26 /* Container.swift */; };
-		F38CB1732A254B870013FA26 /* VerbsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16E2A254B860013FA26 /* VerbsHome.swift */; };
+		F38CB1722A254B870013FA26 /* Container_Verbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16D2A254B860013FA26 /* Container_Verbs.swift */; };
+		F38CB1732A254B870013FA26 /* VerbsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16E2A254B860013FA26 /* VerbsMain.swift */; };
 		F38CB1742A254B870013FA26 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CB16F2A254B870013FA26 /* DictionaryView.swift */; };
 		F393C7C22A18A62E00DE33F9 /* GptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F393C7C12A18A62E00DE33F9 /* GptModel.swift */; };
 		F3A3917229DB27B900591C84 /* MultitoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3917129DB27B900591C84 /* MultitoolApp.swift */; };
@@ -34,8 +34,8 @@
 /* Begin PBXFileReference section */
 		F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryPlusView.swift; sourceTree = "<group>"; };
 		F38CB16C2A254B860013FA26 /* Container VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container VM.swift"; sourceTree = "<group>"; };
-		F38CB16D2A254B860013FA26 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
-		F38CB16E2A254B860013FA26 /* VerbsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbsHome.swift; sourceTree = "<group>"; };
+		F38CB16D2A254B860013FA26 /* Container_Verbs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container_Verbs.swift; sourceTree = "<group>"; };
+		F38CB16E2A254B860013FA26 /* VerbsMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbsMain.swift; sourceTree = "<group>"; };
 		F38CB16F2A254B870013FA26 /* DictionaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		F393C7C12A18A62E00DE33F9 /* GptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptModel.swift; sourceTree = "<group>"; };
 		F3A3916E29DB27B900591C84 /* Multitool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multitool.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,10 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				F38CB16C2A254B860013FA26 /* Container VM.swift */,
-				F38CB16D2A254B860013FA26 /* Container.swift */,
+				F38CB16D2A254B860013FA26 /* Container_Verbs.swift */,
 				F38CB16B2A254B860013FA26 /* DictionaryPlusView.swift */,
 				F38CB16F2A254B870013FA26 /* DictionaryView.swift */,
-				F38CB16E2A254B860013FA26 /* VerbsHome.swift */,
+				F38CB16E2A254B860013FA26 /* VerbsMain.swift */,
 			);
 			path = "Irregular Verbs";
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 				F3A391B529DB439400591C84 /* Create Request.swift in Sources */,
 				F3A391A529DB328600591C84 /* ChatGptParent.swift in Sources */,
 				F3A391B729DB44E600591C84 /* Errors.swift in Sources */,
-				F38CB1722A254B870013FA26 /* Container.swift in Sources */,
+				F38CB1722A254B870013FA26 /* Container_Verbs.swift in Sources */,
 				F3A391A329DB314900591C84 /* HomeButton Model.swift in Sources */,
 				F38CB1702A254B870013FA26 /* DictionaryPlusView.swift in Sources */,
 				F3A391AA29DB392700591C84 /* UserSettings.swift in Sources */,
@@ -248,7 +248,7 @@
 				F3A391AE29DB3A6F00591C84 /* ChatGptIntro.swift in Sources */,
 				F38CB1712A254B870013FA26 /* Container VM.swift in Sources */,
 				F3A391AC29DB39F500591C84 /* ChatGpt.swift in Sources */,
-				F38CB1732A254B870013FA26 /* VerbsHome.swift in Sources */,
+				F38CB1732A254B870013FA26 /* VerbsMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

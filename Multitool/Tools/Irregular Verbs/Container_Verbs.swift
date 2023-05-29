@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct Container: View {
+struct Container_Verbs: View {
     @StateObject private var vm = ContainerVM()
     
     var body: some View {
         VStack {
             TabView {
-                HomeView()
+                VerbsMain()
                     .tabItem {
                         Label("Главнвая", systemImage: "house.fill")
                     }
@@ -30,7 +30,7 @@ struct Container: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Container()
+        Container_Verbs()
             .environmentObject(ContainerVM())
     }
 }
